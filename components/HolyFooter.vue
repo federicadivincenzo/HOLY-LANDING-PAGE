@@ -10,12 +10,11 @@
         <p class="holy-footer__mail">inserireunamail@gmail.com</p>
         <p class="holy-footer__directions">via palermo, 15 2121 Milano, brera</p>
       </div>
-      <div class="holy-footer__logo hide-on-mobile">
+      <div class="holy-footer__logo">
         <img src="/img/holy_small.png" alt="holy logo image">
       </div>
       <div class="holy-footer__terms">
         <span>© 2024 Holy</span>
-        <span class="holy-footer__logo  hide-on-desktop"> <img src="/img/holy_small.png" alt="holy logo image"></span>
         <span>all rights reserved</span>
       </div>
     </div>
