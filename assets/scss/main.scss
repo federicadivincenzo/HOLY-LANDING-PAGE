@@ -9,13 +9,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  width: 100vw;
 }
+
 body {
   position: relative;
   color: black;
   box-sizing: border-box;
   background-color: #497e76;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 

@@ -2,7 +2,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #efeeeb;
   padding: 1rem 0;
   border: 1px solid transparent;
 
@@ -33,25 +32,28 @@
 
   &__mail {
     font-size: 1.2rem;
+    text-transform: uppercase;
     @media (min-width: 767px) {
       font-size: 1.8rem;
     }
 
-    text-transform: uppercase;
+ 
   }
 
   &__directions {
     font-size: .8rem;
+    text-transform: uppercase;
     @media (min-width: 767px) {
       font-size: 1.3rem;
     }
-    text-transform: uppercase;
+
   }
 
   &__terms {
     display: flex;
     align-items: flex-end;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    text-transform: uppercase;
   }
 }
