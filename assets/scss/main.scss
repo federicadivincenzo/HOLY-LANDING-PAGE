@@ -1,0 +1,39 @@
+@import "components/header";
+@import "components/button";
+@import "components/footer";
+@import "components/hero";
+@import "pages/main";
+
+@font-face {
+  font-family: 'Funkorama';
+  src: url("~/fonts/Funkorama.ttf") format("ttf"),;
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  width: 100vw;
+}
+body {
+  position: relative;
+  color: black;
+  box-sizing: border-box;
+  background-color: #497e76;
+}
+
+
+.hide-on-mobile {
+  @media (max-width: 767px){
+    display: none;
+  }
+}
+
+.hide-on-desktop {
+  @media (min-width: 767px){
+    display: none;
+  }
+}

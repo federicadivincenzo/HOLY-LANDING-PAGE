@@ -1,0 +1,26 @@
+.holy-header {
+    position: absolute;
+    top: 0;
+    right:0;
+    left: 0;
+    z-index: 10;
+  &__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.6rem;
+  }
+
+  &__socials {
+    display: flex;
+    gap: .6rem;
+
+  }
+
+  &__social {
+    svg {
+      color: #fff;
+    }
+
+  }
+}
