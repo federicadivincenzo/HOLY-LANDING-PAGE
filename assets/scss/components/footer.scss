@@ -50,12 +50,27 @@
 
   }
 
+  &__text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+  }
+
   &__terms {
     display: flex;
     align-items: flex-end;
     padding: 1rem;
+    font-size: .8rem;
+    font-weight: 500;
     justify-content: space-between;
     text-transform: uppercase;
     gap: 1.5rem;
+
+  }
+
+  &__get-directions {
+    font-size: .8rem;
+    font-weight: 500;
   }
 }

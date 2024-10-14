@@ -4,6 +4,7 @@
 @import "components/hero";
 @import "pages/main";
 @import "pages/menu";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 
 @font-face {
   font-family: 'Funky';
@@ -21,12 +22,12 @@
   font-display: swap;
 }
 
-
 :root {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   overflow-x: hidden;
+  --main-orange: #e56533;
 }
 
 body {
@@ -40,6 +41,8 @@ body {
   justify-content: center;
   width:100vw;
   overflow-x: hidden;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
 }
 
 
@@ -53,4 +56,16 @@ body {
   @media (min-width: 767px){
     display: none;
   }
+}
+
+a {
+  transition: all 200ms ease-in ;
+}
+
+a:hover {
+  color: var(--main-orange);
+}
+
+.holy-text-orange {
+  color: var(--main-orange);
 }

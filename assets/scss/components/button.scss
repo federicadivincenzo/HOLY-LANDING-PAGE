@@ -27,6 +27,10 @@
   &:disabled {
     pointer-events: none;
   }
+  &:hover {
+    border-color: var(--main-orange);
+  }
+  
 
 
   &:active {

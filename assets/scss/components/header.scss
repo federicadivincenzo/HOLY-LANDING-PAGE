@@ -20,7 +20,13 @@
   &__social {
     svg {
       color: #fff;
+
+      &:hover {
+        color: var(--main-orange);
+      }
     }
+
+   
 
   }
 }
