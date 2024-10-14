@@ -5,6 +5,22 @@
 @import "pages/main";
 @import "pages/menu";
 
+@font-face {
+  font-family: 'Funky';
+  src: url('/fonts/KeeponTruckin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Funkorama';
+  src: url('/fonts/Funkorama.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
 :root {
   padding: 0;

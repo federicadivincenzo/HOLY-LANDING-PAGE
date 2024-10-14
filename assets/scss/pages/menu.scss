@@ -4,6 +4,12 @@
     display: flex;
     justify-content: center;
 
+    &__section{
+        &:not(&:first-child) {
+            margin-top: 2rem;
+        }
+    }
+
     &__container {
         width: 100%;
         @media (min-width: 760px) {
@@ -15,9 +21,16 @@
         }
     }
 
+    &__title {
+        font-family: "Funky", sans-serif;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
     &__item-title {
         display: flex;
         width: 100%;
         justify-content: space-between;
+        font-family: "Funkorama", sans-serif;
     }
 }
