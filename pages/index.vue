@@ -18,7 +18,7 @@
         <NuxtLink to="https://drive.google.com/file/d/1UWOKtdz3BgctqsVPrhQTSiZhmkn8VkkJ/view?usp=sharing">Dolcetti</NuxtLink>
       </div>
       <div class="holy__menu__item">
-        <NuxtLink to="https://drive.google.com/file/d/1bpkS94XY1t-XD2OkzR7xbIArevebkNsX/view?usp=sharing">Join the event</NuxtLink>
+        <NuxtLink to="https://drive.google.com/file/d/1bpkS94XY1t-XD2OkzR7xbIArevebkNsX/view?usp=sharing">Launch Party 24/10</NuxtLink>
       </div>
     </div>
   </main>
