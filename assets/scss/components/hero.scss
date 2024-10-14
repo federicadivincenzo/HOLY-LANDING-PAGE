@@ -3,15 +3,23 @@
   height: 98vh;
   width: 100%;
   border: 1px solid transparent;
-  background-image: url('https://images.unsplash.com/photo-1694501522412-c64e5e3ae782?q=80&w=2970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+  &__img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
   &__logo {
+    position: relative;
     display: flex;
     justify-content: center;
     margin-top: 80px;
+    z-index: 9;
 
     img {
       width: 90%;
@@ -30,6 +38,7 @@
     align-items: center;
     padding: .6rem;
     justify-content: space-between;
+    z-index: 9;
   }
 
   &__center {
