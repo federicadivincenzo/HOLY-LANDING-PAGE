@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <HolyHeader></HolyHeader> -->
+    <HolyHeader></HolyHeader>
     <NuxtPage />
     <HolyFooter></HolyFooter>
   </div>
